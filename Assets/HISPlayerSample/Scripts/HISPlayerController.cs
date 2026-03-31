@@ -121,7 +121,7 @@ namespace HISPlayer
 
         public void OnVolumeChanged(int playerIndex, float value)
         {
-            if (playerIndex < 0 || playerIndex >= totalScreens)
+            if (playerIndex < 0 || playerIndex > totalScreens)
                 return;
 
             SetVolume(playerIndex, value);
@@ -186,7 +186,7 @@ namespace HISPlayer
 
         public void OnToggleMute(int playerIndex)
         {
-            if (playerIndex < 0 || playerIndex >= totalScreens)
+            if (playerIndex < 0 || playerIndex > totalScreens)
                 return;
 
             isMuted[playerIndex] = !isMuted[playerIndex];
