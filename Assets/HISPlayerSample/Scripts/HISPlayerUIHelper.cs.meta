@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 78fb0142fd255084a83c08de598b202f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 288103
+  packageName: FREE Video Player with Hosting
+  packageVersion: 4.16.0
+  assetPath: Assets/HISPlayerSample/Scripts/HISPlayerUIHelper.cs
+  uploadId: 888080
